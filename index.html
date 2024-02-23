@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Decodificador de textos</title>
+</head>
+<body>
+    
+    <header class="imagem-logo">
+        <img src = "/imagens/Frame 6.png" alt = "logo da alura">
+    <h1 class="titulo">Decodificador de textos!</h1>
+    </header>
+    <main class="geral">
+        <section class="conteudo__geral">
+            <textarea class = "input-text" cols="40" rows="6" placeholder="Digite seu texto..."></textarea>
+            <div>
+                <h6 class = "informacao">Apenas letras minúsculas e sem acento!</h6>
+            </div>
+            <div class = "botoes">
+                <button class= "encriptar" onclick="botaoEncriptar()">Criptografar
+                </button>
+                <button class= "desencriptar" onclick="botaoDesencriptar()">Descriptografar
+                </button>
+            </div>
+        </section>
+        <section class = "mensagem-box">      
+            <textarea class = "mensagem" cols="18" rows="8"></textarea>
+                <div class="container">
+                    <div id = "div-aparece"></div>
+                        <img class="imagem" src="/imagens/man.png" alt="imagem do homem">
+                        <h2 class="text1">A mensagem aparecerá aqui!</h2>
+                        <span class="text2">Digite um texto que deseja codificar ou decodificar</span>
+                        <button class = "copiar-texto"  onclick = "copiar()">Copiar</button>          
+                    </div>
+                </div>
+        </section>
+
+    </main>
+
+    <footer class ="rodape">
+        <div class="icones">
+            <a href="https://github.com/keyla-dayane"><ion-icon name="logo-github"></ion-icon></a>
+        </div> 
+        <h2>Desenvolvido por Keyla Dayane</h2>
+    </footer>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

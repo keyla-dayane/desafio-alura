@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin: 0;
+    padding: 0;
+}
+
+.imagem-logo img {
+    padding: 3%;
+    width: 13%;
+    height: auto;
+    margin-left: 40px;
+}
+
+.titulo {
+    font-size: 2.5rem;
+    margin-top: -2%;
+}
+.conteudo__geral {
+    margin-left: 20%;
+}
+body {
+    background-color: goldenrod;
+}
+
+header h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-right: 5%;
+}
+
+.hearder {
+    margin-left: 40px;
+
+}
+
+.geral {
+    margin-left: 80px;
+    margin-bottom: 50px;
+    flex-direction: column;
+}
+
+.input-text {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 0 4%;
+    width: 70%;
+    height: 280px;
+    font-size: 20px;
+    color: rgb(22, 14, 1);
+    background-color: transparent;
+    box-shadow: none;
+    border: 2px solid;
+    resize: none;
+    border-radius: 20px;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+    margin-left: -3.5%;
+    margin-top: 5%;
+    
+}
+.informacao {
+    font-size: 0.7rem;
+    font-family: 'Lora', sans-serif;
+}
+.mensagem {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0 0 4%;
+    width: 55%;
+    height: 280px;
+    font-size: 20px;
+    color: rgb(22, 14, 1);
+    background-color: transparent;
+    box-shadow: none;
+    border: 2px solid;
+    resize: none;
+    border-radius: 20px;
+    outline: 0;
+    padding: 10px;
+    margin-left: 17.5%;
+    overflow: hidden;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.container img {
+   width: 15%;
+   height: auto;
+   margin-top: -35%;
+   margin-left: 37%;
+
+}
+
+.container h2{
+    font-size: 0.7rem;
+    color: rgb(0, 0, 7);
+    margin-top: -2%;
+    margin-left: 35%;
+    font-family: 'Lora', sans-serif;
+    
+}
+
+.container span{
+    font-size: 0.5rem;
+    margin-top: 0%;
+    margin-left: 32.5%;
+    font-family: 'Lora', sans-serif;
+    word-wrap: break-word;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    
+    
+}
+
+.campo-mensagem{
+    box-sizing: border-box;
+}
+
+.encriptar {
+    margin-left: 5px;
+    background-color: rgb(207, 193, 168);
+    color: #0A3871;
+    border: 2px solid rgb(13, 50, 117);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(32, 23, 1);
+    width: 30%;
+    height: 5%;
+    cursor: pointer;
+    margin-right: 10%;
+    margin-left: 2%;
+    font-size: 1.0rem;
+
+}
+
+.encriptar:hover{
+    border: 2px solid rgb(245, 233, 123) ;
+    transition: 0.5s all;
+}
+.desencriptar {
+    color: #0A3871;
+    border: 2px solid rgb(13, 50, 117);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(32, 23, 1);
+    width: 30%;
+    height: 5%;
+    cursor: pointer;
+    margin-right: 35%;
+    margin-left: 1%;
+    font-size: 1.0rem;
+    box-sizing: border-box;
+}
+
+.desencriptar:hover{
+    border: 2px solid rgb(245, 233, 123) ;
+    transition: 0.5s all;
+}
+.copiar-texto {
+    border: 2px solid rgb(13, 50, 117);
+    border-radius: 10px;
+    text-decoration: none;
+    color: rgb(32, 23, 1);
+    width: 12%;
+    height: auto;
+    cursor: pointer;
+    margin-top: -80px;
+    font-size: 1rem;
+    margin-left: 15%;
+    
+}
+
+.copiar-texto:hover{
+    border: 2px solid rgb(245, 233, 123) ;
+    transition: 0.5s all;
+}
+
+.rodape{
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+    margin-top: 15px;
+    background: darkgoldenrod;
+    color: rgb(40, 5, 122);
+    font-size: 1.5rem;
+    font-family: 'Lora', sans-serif;
+}
+
+.icones ion-icon{
+    width: 25px;
+    height: 25px;
+    color: rgb(40, 5, 122);
+}
+
+.icones ion-icon:hover{
+    color: rgb(232, 243, 129);
+}
+
+@media screen and (max-width: 1680px) {
+    .container img {
+        width: 12%;
+        height: auto;
+        margin-top: -20%;
+        margin-left: 40%;
+    }
+    .container h2 {
+        margin-left: 39%;
+        margin-top: -1%;
+    }
+    .container span {
+        margin-left: 37%;
+    }
+    .copiar-texto {
+        margin-left: 40%;
+    }
+}
+@media screen and (max-width: 1075px) {
+    .container img {
+        margin-top: -25%;
+        margin-left: 40%;
+    }
+    .container h2 {
+        margin-left: 35%;
+    }
+    .container span {
+        margin-left: 32%;
+    }
+}
+@media screen and (max-width: 1024px) {
+    
+    .container img {
+        width: 18%;
+        margin-left: 37%;
+        margin-top: -33%;
+    }
+    .container span {
+        margin-left: 28%;
+    }
+    .container h2 {
+        margin-left: 32%;
+    }
+    .copiar-texto {
+        margin-left: 38%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .titulo {
+        margin-left: 9%;
+        font-weight: 1rem;
+    }
+    .container h2 {
+        margin-left: 24%;
+    }
+    .container span {
+        margin-left: 20%;
+    }
+    .container img {
+        width: 25%;
+        height: auto;
+        margin-top: -45%;
+        margin-left: 30%;
+    }
+    .input-text {
+        margin-left: -21.5%;
+        width: 94%;
+    }
+    .mensagem {
+        margin-left: 2%;
+        width: 76%;
+    }
+    .encriptar {
+        font-size: 1rem;
+        width: 55%;
+        margin-left: -15%;
+
+    }
+    .desencriptar {
+        font-size: 1rem;
+        width: 55%;
+        margin-left: -7%;
+        height: auto;
+    }
+    .copiar-texto {
+        margin-left: 20%;
+        width: 20%;
+    }
+    .rodape {
+        align-items: center;
+    }
+    .informacao {
+        margin-left: -12%;
+    }
+    .copiar-texto {
+        margin-left: 31.5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container img {
+        width: 32%;
+        margin-top: -70%;
+    }
+    .encriptar {
+        width: 40%;
+        font-size: 0.8rem;
+        margin-left: -9%;
+    }
+    .desencriptar {
+        font-size: 0.7rem;
+        margin-left: -3%;
+    }
+    .container h2 {
+        margin-left: 15%;
+    }
+    .container span {
+        margin-left: 9.5%;
+        word-wrap: break-word;
+        font-size: 0.5rem;
+    }
+    .rodape {
+        width: 100%;
+    }
+    .informacao {
+        margin-left: -16%;
+    }
+    .copiar-texto {
+        width: 25%;
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width: 432px) {
+    .titulo {
+        margin-left: 13%;
+    }
+    .container img {
+        width: 40%;
+        margin-top: -80%;
+        margin-left: 25%;
+    }
+    .input-text {
+        margin-left: -25%;
+        width: 105%;
+    }
+    .mensagem {
+        margin-left: 1%;
+        width: 83%;
+    }
+    .container h2 {
+        margin-left: 15%;
+        word-wrap: break-word;
+    }
+    .container span {
+        margin-left: 7%;
+        word-wrap: break-word;
+    }
+    .encriptar {
+        margin-left: -17%;
+        width: 60%;
+    }
+    .desencriptar {
+        width: 70%;
+    }
+    .informacao {
+        margin-left: -25%;
+    }
+    .copiar-texto{
+        margin-left: 33%;
+    }
+}
+@media screen and (max-width: 406px) {
+    .titulo {
+        margin-left: 17%;
+    }
+    .container h2 {
+        margin-left: 22%;
+    }
+    .container span {
+        margin-left: 13%;
+    }
+    .container img {
+        margin-top: -85%;
+        margin-left: 37%;
+    }
+    .copiar-texto {
+        width: 40%;
+        margin-left: 35%;
+    }
+    .input-text {
+        width: 120%
+    }
+    .mensagem {
+        width: 97%;
+    }
+}
+@media screen and (max-width: 385px) {
+    .titulo {
+        margin-left: 7%;
+    }
+    .container img {
+        margin-left: 25%;
+    }
+    .input-text {
+        margin-left: -35%;
+    }
+    .mensagem {
+        margin-left: -8%;
+    }
+    .container h2 {
+        margin-left: 9%;
+    }
+    .container span {
+        margin-left: 0%;
+    }
+    .copiar-texto {
+        margin-left: 27%;
+    }
+}
+@media screen and (max-width: 320px) {
+    .titulo {
+        font-size: 1.5rem;
+        margin-left: -7%;
+    }
+    .imagem-logo {
+        margin-left: 0%;
+    }
+    .informacao {
+        margin-left: -27%;
+    }
+    .container img {
+        margin-top: -130%;
+        width: 60%;
+        margin-left: 20%;
+    }
+    .container h2 {
+        margin-left: -10%;
+        text-align: center;
+    }
+    .container span {
+        margin-left: 2%;
+    }
+    .input-text {
+        width: 113%;
+        margin-left: -31.5%;
+    }
+    .mensagem {
+        width: 90%;
+        margin-left: -6%;
+    }
+    .botoes {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .encriptar {
+        width: 75%;
+        font-weight: 0.3rem;
+        margin-left:-7%;
+    }
+    .desencriptar {
+        width: 80%;
+        margin-left: -9%;
+        font-weight: 0.8rem;
+    }
+    .copiar-texto {
+        width: 44%;
+        margin-left: 22%;
+    }
+}
